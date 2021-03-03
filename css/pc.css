@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+#mobile { display:none;}
+.menu { overflow:hidden; padding:0px; margin:0px; }
+.menu li { list-style:none; width:100px; background:gray; color:white; padding:15px; text-align:center; float:left;
+ font-size:17px; }
+.menu li:hover { background:black; color:white; }

@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset=euc-kr">
+        <title>Jquery Mobile UI 시작하기</title>
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+    </head>
+    <body>
+        <div data-role="page" id="main">
+            <div data-role="header" data-theme="d">
+                <h1>Main 페이지</h1>
+            </div>
+            <div data-role="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sunt dolore officiis adipisci quod modi explicabo, ut exercitationem voluptatibus dolores deleniti ducimus incidunt mollitia beatae hic doloremque culpa perspiciatis animi. Doloribus molestias alias nihil, velit, animi facere eaque facilis placeat ex nam rerum commodi blanditiis soluta, porro aspernatur! Tempore, odio.</p>
+                <ul data-role="listview">
+                    <li data-role="list-divider">내부 도메인</li>
+                    <li><a href="sub.html" target="_self">외부 서브페이지로 이동</a></li>
+                    <li><a href="#sub" data-rel="dialog">서브페이지로 이동</a></li>
+                    <li data-role="list-divider">외부 도메인</li>
+                    <li><a href="https://google.com">구글</a></li>
+                </ul>
+            </div>
+            <div data-role="footer" data-theme="d">
+                <h2>인천일보 아카데미</h2>
+            </div>
+        </div>
+
+        <div data-role="page" id="sub">
+            <div data-role="header" data-theme="d">
+                <h1>Sub 페이지</h1>
+            </div>
+            <div data-role="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sunt dolore officiis adipisci quod modi explicabo, ut exercitationem voluptatibus dolores deleniti ducimus incidunt mollitia beatae hic doloremque culpa perspiciatis animi. Doloribus molestias alias nihil, velit, animi facere eaque facilis placeat ex nam rerum commodi blanditiis soluta, porro aspernatur! Tempore, odio.</p>
+                <p><a href="#main">메인페이지로 이동</a></p>
+            </div>
+            <div data-role="footer" data-theme="d">
+                <h2>인천일보 아카데미</h2>
+            </div>
+        </div>
+    </body>
+</html>

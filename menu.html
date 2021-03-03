@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width:799px)">
+        <link href="css/pc.css" rel="stylesheet" type="text/css" media="screen and (min-width:800px)">
+        <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>메뉴예제</title>
+    </head>
+<body>
+ <!-- PC버젼 화면 시작 -->
+    <div id="pc">
+        <ul class="menu">
+            <li>홈</li>
+            <li>지역검색</li>
+            <li>영화검색</li>
+            <li>도서검색</li>
+            <li>이미지검색</li>
+            <li>블로그검색</li>
+        </ul>
+    <div><h1>PC 버젼</h1></div>
+    </div>
+ <!-- Mobile 버젼 화면 시작 -->
+    <div id="mobile">
+    <div class="topnav">
+    <a href="#home" class="active">Home</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+    <a href="#">지역검색</a>
+    <a href="#">영화검색</a>
+    <a href="#">도서검색</a>
+    <a href="#">이미지검색</a>
+    <a href="#">블로그검색</a>
+    </div>
+ <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+    </div>
+    <div><h1>모바일 버젼</h1></div>
+    </div>
+    </body>
+    <script>
+    function myFunction() {
+    var x = document.getElementById("myLinks");
+    if(x.style.display === "block") {
+    x.style.display = "none";
+    }else {
+    x.style.display = "block";
+    }
+    }
+    </script>
+</html>
